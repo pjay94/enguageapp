@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/category_padding_top"
+    android:background="@drawable/ciemnetloo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.pjay.enguage.WordsCategoryActivity"
+    tools:showIn="@layout/activity_words_category">
+
+    <Button
+        android:text="@string/ACCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryABC"
+        android:id="@+id/ACButton"
+        android:layout_below="@+id/allButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:text="@string/DFCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:id="@+id/DFButton"
+        android:onClick="clickCategoryDEF"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/ACButton"
+        android:layout_alignBottom="@+id/ACButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/GICategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryGHI"
+        android:id="@+id/GIButton"
+        android:layout_alignBaseline="@+id/DFButton"
+        android:layout_alignBottom="@+id/DFButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/JLCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:id="@+id/JLButton"
+        android:onClick="clickCategoryJKL"
+        android:layout_below="@+id/ACButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:text="@string/MOCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/JLButton"
+        android:layout_alignLeft="@+id/DFButton"
+        android:layout_alignStart="@+id/DFButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryMNO"
+        android:id="@+id/MOButton" />
+
+    <Button
+        android:text="@string/PSCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/MOButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryPQRS"
+        android:id="@+id/PSButton" />
+
+    <Button
+        android:text="@string/TVCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryTUV"
+        android:id="@+id/TVButton"
+        android:layout_below="@+id/JLButton"
+        android:layout_toLeftOf="@+id/MOButton"
+        android:layout_toStartOf="@+id/MOButton"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:text="@string/WZCategory"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryWXYZ"
+        android:id="@+id/WZButton"
+        android:layout_alignBaseline="@+id/TVButton"
+        android:layout_alignBottom="@+id/TVButton"
+        android:layout_toRightOf="@+id/MOButton"
+        android:layout_toEndOf="@+id/MOButton" />
+
+    <Button
+        android:text="@string/allCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="clickCategoryAll"
+        android:id="@+id/allButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/enguage_logo"
+        android:foregroundGravity="center_vertical"
+        android:paddingTop="45dp"
+        android:id="@+id/enguage_logo_activity_main"
+        android:contentDescription="@string/menu_enguage_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    //values in main activity
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="vertical_center_padding">150dp</dimen>
+
+    //values in category activity
+    <dimen name="category_padding_top">30dp</dimen>
+    <dimen name="category_button_width">100dp</dimen>
+
+    //values in best scores activity
+    //
+    <dimen name="spinner_height">35dp</dimen>
+
+    //values in ChoosingLevelActivity
+    <dimen name="level_button_width">200dp</dimen>
+    <dimen name="level_button_height">60dp</dimen>
+    <dimen name="level_margin_top">40dp</dimen>
+    <dimen name="level_margin_atTheTop">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="level_option_margin_top">100dp</dimen>
+    <dimen name="option_margin_top">40dp</dimen>
+
+    //values in options
+
+</resources>

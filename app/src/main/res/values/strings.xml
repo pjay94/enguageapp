@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Enguage</string>
+
+    //main menu
+    //texts in menu
+    <string name="words_text">Słownictwo</string>
+    <string name="phrasalVerbs_text">Czasowniki złożone</string>
+    <string name="exit_text">Wyjście</string>
+    <string name="loading_text">Ładowanie...</string>
+
+    //description content
+    <string name="menu_enguage_logo"></string>
+
+    //translation
+    <string name="checkTranslation_text">Sprawdź</string>
+
+    //title / labels
+    <string name="title_activity_game">Rozgrywka</string>
+    <string name="title_activity_words_category">Kategorie słów</string>
+    <string name="title_activity_translate_word">Tłumaczenie słowa</string>
+    <string name="title_activity_options">Opcje</string>
+    <string name="title_activity_phrasals">Czasowniki złożone</string>
+    <string name="title_activity_add_word">Dodaj słowo</string>
+    <string name="title_activity_delete_word">Usuń słowo</string>
+    <string name="title_activity_database_management">Zarządzanie bazą</string>
+    <string name="title_activity_instruction">Instrukcja</string>
+
+    //names of categories
+    <string name="ACCategory">ABC</string>
+    <string name="DFCategory">DEF</string>
+    <string name="GICategory">GHI</string>
+    <string name="JLCategory">JKL</string>
+    <string name="MOCategory">MNO</string>
+    <string name="PSCategory">PQRS</string>
+    <string name="TVCategory">TUV</string>
+    <string name="WZCategory">WXYZ</string>
+    <string name="allCategory">Wszystkie słowa</string>
+
+    <string name="game_insert_text_hint">Tutaj wpisz odpowiedź...</string>
+    <string name="checkWordButtonText">Sprawdź</string>
+    <string name="option_text">Opcje</string>
+    <string name="addWord">Dodaj słowo</string>
+    <string name="deleteWord">Usuń słowo</string>
+    <string name="importWords">Import słów</string>
+    <string name="exportWords">Eksport słów</string>
+    <string name="instruction">Instrukcja</string>
+    <string name="streak_text">Seria</string>
+    <string name="addWordButtonText">Dodaj słowo</string>
+    <string name="chooseCategoryFromList">Wybierz kategorię z listy:</string>
+    <string name="deleteWordButtonText">Usuń słowo</string>
+    <string name="databaseManagement">Zarządzanie bazą</string>
+    <string name="instruction_text">Baza danych po eksporcie znajduje się w głównym folderze pamięci zewnętrznej (w zależności
+    od domyślnego wyboru użytkownika może to być pamięć wbudowana lub karta SD, ale nie pamięć telefonu). Jest to plik o nazwie WORDS.
+    W tym samym miejscu powinniśmy umieścić plik przeniesiony np. z innego telefonu, jeżeli chcemy bazę zaimportować do aplikacji
+    zainstalowanej na danym telefonie. W przypadku wersji Androida 6.0 Marshmallow i wyższych należy nadać aplikacji uprawnienia
+    do korzystania z pamięci.</string>
+
+    <string-array name="categories">
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+</resources>
